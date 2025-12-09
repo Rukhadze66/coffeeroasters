@@ -6,11 +6,13 @@
 body {
     margin: 0;
     padding: 0 80px 0 80px;
+
 }
 
 * {
     box-sizing: border-box;
-    margin: 0
+    margin: 0;
+    font-family: "Barlow", sans-serif;
 }
 
 header {
@@ -33,4 +35,21 @@ ul.navigation a {
 
 header img {
     height: 26px;
+}
+
+/* section first */
+
+section.first {
+    height: 600px;
+    background-image: url(./images/Bitmap.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section.first h1 {
+    font-size: 72px;
+    font-weight: 800;
+    width: 493px;
+    color: white;
+    font-family: "Fraunces", serif;
 }
