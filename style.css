@@ -40,16 +40,42 @@ header img {
 /* section first */
 
 section.first {
-    height: 600px;
-    background-image: url(./images/Bitmap.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+  padding: 117px 0 116px 85px;
+  height: 600px;
+  background-image: url(./images/Bitmap.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 section.first h1 {
-    font-size: 72px;
-    font-weight: 800;
-    width: 493px;
-    color: white;
-    font-family: "Fraunces", serif;
+  font-size: 72px;
+  font-weight: 800;
+  width: 493px;
+  color: white;
+  line-height: 72px;
+  font-family: "Fraunces", serif;
+}
+
+section.first p {
+  color: #fefcf7;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  opacity: 80%;
+  width: 425px;
+  margin-top: 32px;
+}
+
+section.first button {
+  width: 217px;
+  height: 56px;
+  border-radius: 6px;
+  border: none;
+  background-color: #0e8784;
+  color: #fefcf7;
+  font-family: "Fraunces", serif;
+  font-size: 18px;
+  font-weight: 900;
+  padding: 0;
+  margin-top: 56px;
 }
