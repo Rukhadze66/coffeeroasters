@@ -1,40 +1,37 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
-
-
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap");
 
 body {
-    margin: 0;
-    padding: 0 80px 0 80px;
-
+  margin: 0;
+  padding: 0 80px 0 80px;
 }
 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    font-family: "Barlow", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Barlow", sans-serif;
 }
 
 header {
-    display: flex;
-    justify-content: space-between;
-    height: 113px;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  height: 113px;
+  align-items: center;
 }
 
 ul.navigation {
-    display: flex;
-    list-style: none;
-    gap: 33px;
+  display: flex;
+  list-style: none;
+  gap: 33px;
 }
 
 ul.navigation a {
-    text-decoration: none;
-    color: #83888F;
+  text-decoration: none;
+  color: #83888f;
 }
 
 header img {
-    height: 26px;
+  height: 26px;
 }
 
 /* section first */
@@ -78,4 +75,54 @@ section.first button {
   font-weight: 900;
   padding: 0;
   margin-top: 56px;
+}
+
+/* section second */
+
+section.second {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+  div.packets {
+    height: 193px;
+    margin-top: -70px;
+    display: flex;
+    gap: 30px;
+    img {
+      height: 100%;
+    }
+    img.danche {
+      height: 177px;
+      margin-top: 15px;
+    }
+  }
+}
+
+div.info {
+  display: flex;
+  gap: 30px;
+  margin-top: 71.55px;
+
+  div.text {
+    height: 134px;
+    width: 255px;
+
+    p {
+      color: #333d4b;
+      font-family: "Fraunces", serif;
+      font-size: 24px;
+      font-weight: 900;
+      text-align: center;
+      margin-bottom: 24px;
+    }
+
+    article {
+      color: #333d4b;
+      font-weight: 400;
+      font-size: 16px;
+      text-align: center;
+    }
+  }
 }
