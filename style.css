@@ -130,3 +130,35 @@ div.info {
 }
 
 /* section third */
+
+section.third{
+
+  div.dark{
+    background-color:#293039;
+    height: 577px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+  }
+
+  div.wrapper{
+    height: 160px;
+    width: 540px;
+    text-align: center;
+    color: #FEFCF7;
+
+    h2{
+      font-family: "Fraunces", serif;
+      font-weight: 900;
+      font-size: 40px;
+    }
+    p{
+      margin-top: 32px;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 26px;
+      opacity: 80%;
+    }
+  }
+}
