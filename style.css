@@ -84,6 +84,8 @@ section.second {
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  margin-top: 136px;
+  margin-bottom: 200px;
 
   div.packets {
     height: 193px;
@@ -126,3 +128,5 @@ div.info {
     }
   }
 }
+
+/* section third */
